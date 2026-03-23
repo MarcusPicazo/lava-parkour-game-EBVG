@@ -1,0 +1,24 @@
+{
+  "name": "futuros-imaginados-lava-parkour",
+  "version": "1.0.0",
+  "description": "Juego web interactivo de parkour 3D en WebGL utilizando Three.js. Proyecto educativo para muestra editorial.",
+  "main": "main.js",
+  "scripts": {
+    "start": "serve",
+    "dev": "serve -l 3000"
+  },
+  "keywords": [
+    "three.js",
+    "webgl",
+    "parkour",
+    "3d",
+    "game",
+    "javascript",
+    "front-end"
+  ],
+  "author": "Marcus Escalona",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

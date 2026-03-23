@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marcus Escalona">
+    <meta name="description" content="Futuros Imaginados - Lava Parkour Virtual. Un minijuego 3D interactivo desarrollado con Three.js para la Muestra Editorial.">
+    <meta name="keywords" content="Three.js, WebGL, Parkour, Juego 3D, Front-End, JavaScript, Educación">
+    <title>Futuros Imaginados - Lava Parkour</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div id="crosshair"></div>
+    <div id="speed-indicator">[ IMPULSO ACTIVO ]</div>
+    
+    <div id="lang-selector">
+        <button id="btn-es" class="lang-btn active">
+            <img src="https://flagcdn.com/w20/es.png" srcset="https://flagcdn.com/w40/es.png 2x" width="20" alt="ES"> ES
+        </button>
+        <button id="btn-en" class="lang-btn">
+            <img src="https://flagcdn.com/w20/gb.png" srcset="https://flagcdn.com/w40/gb.png 2x" width="20" alt="EN"> EN
+        </button>
+    </div>
+
+    <div id="ui-layer">
+        
+        <div id="intro-screen" class="message-box">
+            <h1 id="txt-intro-header" class="intro-header">ACTIVIDAD CIT</h1>
+            <p id="txt-intro-title" class="intro-title">MUESTRA EDITORIAL</p>
+            <p id="txt-intro-school" class="intro-school">Escuela Berta Von Glümer</p>
+            
+            <div class="intro-project-box">
+                <p id="txt-intro-project" class="intro-project-text">[ Proyecto: Lava Parkour ]</p>
+            </div>
+
+            <p class="intro-year">2025</p>
+            <button id="btn-continue" class="btn-orange">INICIAR CONEXIÓN</button>
+        </div>
+
+        <div id="start-screen" class="message-box" style="display: none;">
+            <h1 id="txt-start-title">Futuros Imaginados</h1>
+            
+            <div class="context-text">
+                <p id="txt-start-context1" class="center-text no-margin-top">Selecciona un libro. Lee atentamente el holograma inicial al entrar al nivel para encontrar las pistas necesarias para avanzar.</p>
+                <p id="txt-start-context2" class="warning-text center-text no-margin-bottom"><em>El cortafuegos es dinámico: las respuestas correctas cambiarán de lado aleatoriamente si caes y reintentas.</em></p>
+            </div>
+            
+            <select id="book-select">
+                <option value="ready_player_one">1. Ready Player One</option>
+                <option value="siega">2. Siega</option>
+                <option value="cinder">3. Cinder</option>
+                <option value="warcross">4. Warcross</option>
+                <option value="illuminae">5. Illuminae</option>
+                <option value="el_diabolico">6. El Diabólico</option>
+                <option value="traicion">7. Traición</option>
+            </select>
+
+            <p id="txt-remember" class="highlight">¡RECUERDA!</p>
+            <p id="txt-controls" class="margin-top-small">Toma impulso para saltos largos: <b>Atrás (S) e inmediatamente Adelante (W)</b>.</p>
+            
+            <button id="btn-start">Iniciar Misión</button>
+        </div>
+        
+        <div id="game-over-screen" class="message-box" style="display: none;">
+            <h1 id="txt-go-title" class="title-danger">¡Te quemaste!</h1>
+            <p id="txt-go-msg">Elegiste la respuesta incorrecta o fallaste el salto.</p>
+            <p id="txt-go-hint" class="text-small-warning">(Las respuestas han cambiado de posición)</p>
+            <div class="btn-container">
+                <button id="btn-retry" class="btn-danger">Reintentar</button>
+                <button class="btn-menu btn-danger">Cambiar Libro</button>
+            </div>
+        </div>
+        
+        <div id="win-screen" class="message-box" style="display: none;">
+            <h1 id="txt-win-title" class="title-success">¡Archivo Restaurado!</h1>
+            <p id="txt-win-msg">Has superado la prueba de este libro con éxito. ¡Eres un verdadero Hacker!</p>
+            <div class="btn-container">
+                <button id="btn-restart" class="btn-success">Jugar de nuevo</button>
+                <button class="btn-menu btn-success">Cambiar Libro</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
