@@ -1,12 +1,21 @@
-# Futuros Imaginados - Lava Parkour Virtual 🌋
+# 🌋 Futuros Imaginados - Lava Parkour Virtual
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Three.js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white) ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=for-the-badge&logo=githubpages)](https://marcuspicazo.github.io/lava-parkour-game-EBVG/)
 
 **[English Below]**
 
+---
+
+## 🇪🇸 Español
+
 Un minijuego web interactivo en 3D estilo *Parkour*, desarrollado íntegramente con tecnologías nativas web y la librería WebGL **Three.js**. Fue creado como una experiencia gamificada y educativa para la Muestra Editorial de la Escuela Berta Von Glümer (2025). 
 
-A través de esta plataforma, los estudiantes aprenden y responden preguntas de diferentes libros de ciencia ficción y distopía saltando entre plataformas. Este proyecto refleja la intersección entre la ingeniería de sistemas y la innovación educativa. 
+A través de esta plataforma, los estudiantes aprenden y responden preguntas de diferentes libros de ciencia ficción y distopía saltando entre plataformas. Este proyecto refleja la intersección entre la ingeniería de sistemas y la innovación educativa.
 
-*Desarrollado por Marcus Escalona.* | [Visitar Portafolio](https://marcusescalona.art)
+### 🔗 Enlace a la plataforma
+Puedes jugar y probar la plataforma en vivo aquí: [https://marcuspicazo.github.io/lava-parkour-game-EBVG/](https://marcuspicazo.github.io/lava-parkour-game-EBVG/)
 
 ### Tecnologías y Habilidades Técnicas
 * **JavaScript (ES6+)**: Lógica orientada a eventos, físicas personalizadas, detección de colisiones dinámicas por *Raycasting* y bucles asíncronos (`requestAnimationFrame`). Arquitectura de internacionalización (i18n) en tiempo real (Inglés / Español).
@@ -21,13 +30,14 @@ A través de esta plataforma, los estudiantes aprenden y responden preguntas de 
 
 ---
 
-**[English]**
+## 🇺🇸 English
 
 An interactive 3D *Parkour* web mini-game, developed entirely with native web technologies and the **Three.js** WebGL library. It was created as a gamified educational experience for the Berta Von Glümer School Editorial Exhibition (2025). 
 
 Through this platform, students learn and answer questions about different sci-fi and dystopian books by jumping across platforms. This project reflects the intersection of systems engineering and educational innovation.
 
-*Developed by Marcus Escalona.* | [Visit Portfolio](https://marcusescalona.art)
+### 🔗 Live Link
+Access the live game here: [https://marcuspicazo.github.io/lava-parkour-game-EBVG/](https://marcuspicazo.github.io/lava-parkour-game-EBVG/)
 
 ### Technologies & Technical Skills
 * **JavaScript (ES6+)**: Event-driven logic, custom physics engine, dynamic collision detection via *Raycasting*, and asynchronous rendering loops (`requestAnimationFrame`). Real-time internationalization (i18n) architecture (English / Spanish).
@@ -39,3 +49,6 @@ Through this platform, students learn and answer questions about different sci-f
 1. Clone this repository.
 2. Run `npm install` to install the lightweight static server.
 3. Start the local development server with `npm start`.
+
+---
+*Developed by / Desarrollado por **Marco Antonio Escalona García** - Systems Engineer & AI Product Engineer* | [Portfolio](https://marcusescalona.art)
